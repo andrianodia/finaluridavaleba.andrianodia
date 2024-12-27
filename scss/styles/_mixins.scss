@@ -1,0 +1,257 @@
+@mixin container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@mixin filmebi {
+  margin-top: 32px;
+  .div1 {
+    width: 295px;
+    height: 296px;
+    flex-shrink: 0;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #a3a3a3;
+    background: url(https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
+      lightgray 50% / cover no-repeat;
+  }
+  .div2 {
+    width: 295px;
+    height: 212px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid #a3a3a3;
+    background: white;
+    h2 {
+      color: #000;
+      margin-left: 16px;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 133.333% */
+    }
+    p {
+      width: 215px;
+      color: #000;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px; /* 137.5% */
+      margin-top: 16px;
+      margin-left: 16px;
+    }
+    a {
+      .button {
+        width: 88px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background-color: #006d9b;
+        margin-top: 24px;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h6 {
+          color: var(--Gray-Gray-1, #f3f4f8);
+          font-family: Inter;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 26px; /* 144.444% */
+        }
+      }
+    }
+  }
+}
+
+@mixin filmebi1 {
+  margin-top: 32px;
+  .div1 {
+    width: 295px;
+    height: 296px;
+    flex-shrink: 0;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #a3a3a3;
+    background: url(https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg)
+      lightgray 50% / cover no-repeat;
+  }
+  .div2 {
+    width: 295px;
+    height: 212px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid #a3a3a3;
+    background: white;
+    h2 {
+      color: #000;
+      margin-left: 16px;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 133.333% */
+    }
+    p {
+      width: 215px;
+      color: #000;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px; /* 137.5% */
+      margin-top: 16px;
+      margin-left: 16px;
+    }
+    a {
+      .button {
+        width: 88px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background-color: #006d9b;
+        margin-top: 24px;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h6 {
+          color: var(--Gray-Gray-1, #f3f4f8);
+          font-family: Inter;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 26px; /* 144.444% */
+        }
+      }
+    }
+  }
+}
+
+@mixin filmebi2 {
+  margin-top: 32px;
+  .div1 {
+    width: 295px;
+    height: 296px;
+    flex-shrink: 0;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #a3a3a3;
+    background: url(https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg)
+      lightgray 50% / cover no-repeat;
+  }
+  .div2 {
+    width: 295px;
+    height: 212px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid #a3a3a3;
+    background: white;
+    h2 {
+      color: #000;
+      margin-left: 16px;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 133.333% */
+    }
+    p {
+      width: 215px;
+      color: #000;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px; /* 137.5% */
+      margin-top: 16px;
+      margin-left: 16px;
+    }
+    a {
+      .button {
+        width: 88px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background-color: #006d9b;
+        margin-top: 24px;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h6 {
+          color: var(--Gray-Gray-1, #f3f4f8);
+          font-family: Inter;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 26px; /* 144.444% */
+        }
+      }
+    }
+  }
+}
+
+@mixin filmebi3 {
+  margin-top: 32px;
+  .div1 {
+    width: 295px;
+    height: 296px;
+    flex-shrink: 0;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #a3a3a3;
+    background: url(https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
+      lightgray 50% / cover no-repeat;
+  }
+  .div2 {
+    width: 295px;
+    height: 212px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid #a3a3a3;
+    background: white;
+    h2 {
+      color: #000;
+      margin-left: 16px;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 133.333% */
+    }
+    p {
+      width: 215px;
+      color: #000;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px; /* 137.5% */
+      margin-top: 16px;
+      margin-left: 16px;
+    }
+    a {
+      .button {
+        width: 88px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background-color: #006d9b;
+        margin-top: 24px;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h6 {
+          color: var(--Gray-Gray-1, #f3f4f8);
+          font-family: Inter;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 26px; /* 144.444% */
+        }
+      }
+    }
+  }
+}

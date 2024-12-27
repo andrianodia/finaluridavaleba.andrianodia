@@ -1,0 +1,85 @@
+.s1 {
+  width: 100%;
+  height: 632px;
+  flex-shrink: 0;
+  background-image: url(https://wallpapermemory.com/uploads/551/interstellar-wallpaper-ultra-hd-4k-238903.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  header {
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 34px;
+    .headertext {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .fa-magnifying-glass {
+      font-size: 40px;
+    }
+    .fa-user {
+      font-size: 40px;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    .bars {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      gap: 6px;
+      h1 {
+        color: var(-text-colour);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 200% */
+      }
+    }
+  }
+  .arrows {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 154px;
+    i {
+      font-size: 56px;
+    }
+  }
+}
+
+.s2 {
+  @include container;
+  margin-top: 108px;
+  h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+  }
+  .yveladivi {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 32px;
+    .filmebi {
+      @include filmebi;
+    }
+    .filmebi1 {
+      @include filmebi1;
+    }
+    .filmebi2 {
+      @include filmebi2;
+    }
+    .filmebi3 {
+      @include filmebi3;
+    }
+  }
+}
