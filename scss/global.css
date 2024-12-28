@@ -248,7 +248,7 @@ a {
   }
 }
 .s2 h1 {
-  color: #000;
+  color: var(-text-colour);
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -543,6 +543,121 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: 26px; /* 144.444% */
+}
+
+.s3 {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 1250px) {
+  .s3 {
+    width: 95%;
+  }
+}
+.s3 h1 {
+  color: var(-text-colour);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 32px;
+}
+.s3 .cardebi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 20px;
+}
+.s3 .cardebi a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 122px;
+  height: 28px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.s3 .cardebi .trailerisbutton {
+  width: 122px;
+  height: 28px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 20px;
+  background-color: #006d9b;
+  margin-top: 14px;
+  margin-left: 16px;
+}
+.s3 .cardebi .trailerisbutton h1 {
+  color: var(--Gray-Gray-1, #f3f4f8);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px; /* 140% */
+  margin-left: 18px;
+}
+.s3 .cardebi .card1 {
+  max-width: 610px;
+  width: 100%;
+  height: 356px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #a3a3a3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.31%, rgba(0, 0, 0, 0.4)), color-stop(55.1%, rgba(0, 0, 0, 0.28)), to(rgba(0, 0, 0, 0))), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 10.31%, rgba(0, 0, 0, 0.28) 55.1%, rgba(0, 0, 0, 0) 100%), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
+  background: url(https://m.media-amazon.com/images/M/MV5BYjYwMjQ3OTEtNTI2OS00MjcxLTgxYzctM2JjZjE3NGE3YmFhXkEyXkFqcGc@._V1_.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+}
+.s3 .cardebi .card2 {
+  max-width: 610px;
+  width: 100%;
+  height: 356px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #a3a3a3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.31%, rgba(0, 0, 0, 0.4)), color-stop(55.1%, rgba(0, 0, 0, 0.28)), to(rgba(0, 0, 0, 0))), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 10.31%, rgba(0, 0, 0, 0.28) 55.1%, rgba(0, 0, 0, 0) 100%), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
+  background: url(https://www.irishfilmcritic.com/wp-content/uploads/2024/11/Captain-America.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 840px) {
