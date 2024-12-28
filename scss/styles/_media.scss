@@ -69,3 +69,32 @@
     justify-content: space-evenly;
   }
 }
+
+@media (max-width: 420px) {
+  .s4 {
+    .yvelaseriali {
+      .seriisdivi {
+        width: 340px;
+        height: 296px;
+      }
+      .textebisdivi {
+        width: 340px;
+        height: 268px;
+      }
+    }
+  }
+}
+
+@media (max-width: 344px) {
+  .s4 {
+    .yvelaseriali {
+      .textebisdivi {
+        p {
+          font-size: 14px;
+          width: 250px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
