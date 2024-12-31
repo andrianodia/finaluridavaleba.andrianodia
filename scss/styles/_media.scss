@@ -98,3 +98,44 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .s6 {
+    .yvelacinemamovies {
+      .film4 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 918px) {
+  .s6 {
+    .yvelacinemamovies {
+      padding-left: 20px;
+      .film4 {
+        display: none;
+      }
+      .film3 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 572px) {
+  .s6 {
+    .yvelacinemamovies {
+      padding-left: 20px;
+      .film4 {
+        display: none;
+      }
+      .film3 {
+        display: none;
+      }
+      .film2 {
+        display: none;
+      }
+    }
+  }
+}
