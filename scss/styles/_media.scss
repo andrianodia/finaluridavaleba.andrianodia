@@ -139,3 +139,20 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .lordseqcia1header {
+    header {
+      .headertext {
+        .bars {
+          .fa-bars {
+            font-size: 40px;
+          }
+        }
+        h1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
