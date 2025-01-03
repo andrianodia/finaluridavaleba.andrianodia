@@ -138,8 +138,7 @@ a {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -157,8 +156,7 @@ a {
 .s1 {
   width: 100%;
   height: 632px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   background-image: url(https://wallpapermemory.com/uploads/551/interstellar-wallpaper-ultra-hd-4k-238903.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,15 +166,9 @@ a {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 @media (max-width: 1250px) {
   .s1 header {
@@ -184,12 +176,8 @@ a {
   }
 }
 .s1 header .headertext {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 24px;
 }
 .s1 header .fa-magnifying-glass {
@@ -201,16 +189,12 @@ a {
   cursor: pointer;
 }
 .s1 header img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 .s1 header .bars {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-size: 24px;
   gap: 6px;
   cursor: pointer;
@@ -227,12 +211,8 @@ a {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 154px;
 }
 @media (max-width: 1250px) {
@@ -264,14 +244,9 @@ a {
   line-height: 32px; /* 133.333% */
 }
 .s2 .yveladivi {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 18px;
   margin-top: 32px;
   margin-bottom: 108px;
@@ -282,8 +257,7 @@ a {
 .s2 .yveladivi .filmebi .div1 {
   width: 295px;
   height: 296px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 15px 15px 0px 0px;
   border: 1px solid #a3a3a3;
   background: url(https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) lightgray 50%/cover no-repeat;
@@ -291,8 +265,7 @@ a {
 .s2 .yveladivi .filmebi .div2 {
   width: 295px;
   height: 212px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 0px 0px 15px 15px;
   border: 1px solid #a3a3a3;
   background: white;
@@ -321,21 +294,14 @@ a {
 .s2 .yveladivi .filmebi .div2 a .button {
   width: 88px;
   height: 40px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   background-color: #006d9b;
   margin-top: 15px;
   margin-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .s2 .yveladivi .filmebi .div2 a .button h6 {
   color: var(--Gray-Gray-1, #f3f4f8);
@@ -351,8 +317,7 @@ a {
 .s2 .yveladivi .filmebi1 .div1 {
   width: 295px;
   height: 296px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 15px 15px 0px 0px;
   border: 1px solid #a3a3a3;
   background: url(https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg) lightgray 50%/cover no-repeat;
@@ -360,8 +325,7 @@ a {
 .s2 .yveladivi .filmebi1 .div2 {
   width: 295px;
   height: 212px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 0px 0px 15px 15px;
   border: 1px solid #a3a3a3;
   background: white;
@@ -390,21 +354,14 @@ a {
 .s2 .yveladivi .filmebi1 .div2 a .button {
   width: 88px;
   height: 40px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   background-color: #006d9b;
   margin-top: 15px;
   margin-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .s2 .yveladivi .filmebi1 .div2 a .button h6 {
   color: var(--Gray-Gray-1, #f3f4f8);
@@ -420,8 +377,7 @@ a {
 .s2 .yveladivi .filmebi2 .div1 {
   width: 295px;
   height: 296px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 15px 15px 0px 0px;
   border: 1px solid #a3a3a3;
   background: url(https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg) lightgray 50%/cover no-repeat;
@@ -429,8 +385,7 @@ a {
 .s2 .yveladivi .filmebi2 .div2 {
   width: 295px;
   height: 212px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 0px 0px 15px 15px;
   border: 1px solid #a3a3a3;
   background: white;
@@ -459,21 +414,14 @@ a {
 .s2 .yveladivi .filmebi2 .div2 a .button {
   width: 88px;
   height: 40px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   background-color: #006d9b;
   margin-top: 14px;
   margin-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .s2 .yveladivi .filmebi2 .div2 a .button h6 {
   color: var(--Gray-Gray-1, #f3f4f8);
@@ -489,8 +437,7 @@ a {
 .s2 .yveladivi .filmebi3 .div1 {
   width: 295px;
   height: 296px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 15px 15px 0px 0px;
   border: 1px solid #a3a3a3;
   background: url(https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) lightgray 50%/cover no-repeat;
@@ -498,8 +445,7 @@ a {
 .s2 .yveladivi .filmebi3 .div2 {
   width: 295px;
   height: 212px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 0px 0px 15px 15px;
   border: 1px solid #a3a3a3;
   background: white;
@@ -528,21 +474,14 @@ a {
 .s2 .yveladivi .filmebi3 .div2 a .button {
   width: 88px;
   height: 40px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   background-color: #006d9b;
   margin-top: 28px;
   margin-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .s2 .yveladivi .filmebi3 .div2 a .button h6 {
   color: var(--Gray-Gray-1, #f3f4f8);
@@ -573,36 +512,23 @@ a {
   margin-bottom: 32px;
 }
 .s3 .cardebi {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 20px;
 }
 .s3 .cardebi a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 122px;
   height: 28px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 .s3 .cardebi .trailerisbutton {
   width: 122px;
   height: 28px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   background-color: #006d9b;
   margin-top: 14px;
@@ -621,50 +547,34 @@ a {
   max-width: 610px;
   width: 100%;
   height: 356px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   border: 1px solid #a3a3a3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.31%, rgba(0, 0, 0, 0.4)), color-stop(55.1%, rgba(0, 0, 0, 0.28)), to(rgba(0, 0, 0, 0))), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 10.31%, rgba(0, 0, 0, 0.28) 55.1%, rgba(0, 0, 0, 0) 100%), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
   background: url(https://m.media-amazon.com/images/M/MV5BYjYwMjQ3OTEtNTI2OS00MjcxLTgxYzctM2JjZjE3NGE3YmFhXkEyXkFqcGc@._V1_.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
   padding-bottom: 20px;
 }
 .s3 .cardebi .card2 {
   max-width: 610px;
   width: 100%;
   height: 356px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   border: 1px solid #a3a3a3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.31%, rgba(0, 0, 0, 0.4)), color-stop(55.1%, rgba(0, 0, 0, 0.28)), to(rgba(0, 0, 0, 0))), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 10.31%, rgba(0, 0, 0, 0.28) 55.1%, rgba(0, 0, 0, 0) 100%), url(<path-to-image>) lightgray -1106397034676718500px -7474080605189060000px/1633123864057708300% 2099460844154230300% no-repeat;
   background: url(https://www.irishfilmcritic.com/wp-content/uploads/2024/11/Captain-America.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
   padding-bottom: 20px;
 }
 
@@ -689,33 +599,21 @@ a {
   margin-bottom: 32px;
 }
 .s4 .yvelaseriali {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 20px;
 }
 .s4 .yvelaseriali .textebisdivi .button {
   width: 88px;
   height: 40px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px;
   background-color: #006d9b;
   margin-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .s4 .yvelaseriali .textebisdivi .button h5 {
   color: var(--Gray-Gray-1, #f3f4f8);
@@ -752,16 +650,14 @@ a {
   width: 100%;
   max-height: 564px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 .s4 .yvelaseriali .seriali1 .seriisdivi {
   max-width: 400px;
   width: 100%;
   max-height: 296px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
   border: 1px solid #a3a3a3;
   background: url(<path-to-image>) lightgray -0.61px -175.718px/100% 186.086% no-repeat;
@@ -771,8 +667,7 @@ a {
   width: 100%;
   max-height: 268px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #a3a3a3;
   background: white;
@@ -791,16 +686,14 @@ a {
   width: 100%;
   max-height: 564px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 .s4 .yvelaseriali .seriali2 .seriisdivi {
   max-width: 400px;
   width: 100%;
   max-height: 296px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
   border: 1px solid #a3a3a3;
   background: url(<path-to-image>) lightgray -0.61px -175.718px/100% 186.086% no-repeat;
@@ -810,8 +703,7 @@ a {
   width: 100%;
   max-height: 268px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #a3a3a3;
   background: white;
@@ -830,16 +722,14 @@ a {
   width: 100%;
   max-height: 564px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 .s4 .yvelaseriali .seriali3 .seriisdivi {
   max-width: 400px;
   width: 100%;
   max-height: 296px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
   border: 1px solid #a3a3a3;
   background: url(<path-to-image>) lightgray -0.61px -175.718px/100% 186.086% no-repeat;
@@ -849,8 +739,7 @@ a {
   width: 100%;
   max-height: 268px;
   height: 100vh;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #a3a3a3;
   background: white;
@@ -865,6 +754,386 @@ a {
   margin-top: 66px;
 }
 
+.s5 {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 108px;
+}
+@media (max-width: 1250px) {
+  .s5 {
+    width: 95%;
+  }
+}
+.s5 .yvelajanri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.s5 .yvelajanri .janrisbutton {
+  width: 122px;
+  height: 28px;
+  border-radius: 20px;
+  background: #309d6f;
+  margin-top: 32px;
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s5 .yvelajanri .janrisbutton h1 {
+  color: var(--Gray-Gray-1, #f3f4f8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px; /* 140% */
+}
+.s5 .yvelajanri .janri1 {
+  max-width: 400px;
+  width: 100%;
+  height: 296px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #a3a3a3;
+  background: url(<path-to-image>) lightgray 0px 18px/100% 95.27% no-repeat;
+  background: url(https://wallpapers.com/images/featured/4k-marvel-awrqh8lcgyk3crjc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s5 .yvelajanri .janri2 {
+  max-width: 400px;
+  width: 100%;
+  height: 296px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #a3a3a3;
+  background: url(<path-to-image>) lightgray 0px 18px/100% 95.27% no-repeat;
+  background: url(https://c4.wallpaperflare.com/wallpaper/987/845/125/action-nature-green-smile-wallpaper-preview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s5 .yvelajanri .janri3 {
+  max-width: 400px;
+  width: 100%;
+  height: 296px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #a3a3a3;
+  background: url(<path-to-image>) lightgray 0px 18px/100% 95.27% no-repeat;
+  background: url(https://rukminim2.flixcart.com/image/850/1000/l111lzk0/poster/1/d/j/medium-rings-horror-movie-2016-4k-on-fine-art-paper-hd-quality-original-imagczwux574g9hp.jpeg?q=90&crop=false);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s6 {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  width: 1240px;
+  height: 456px;
+  flex-shrink: 0;
+  margin-top: 108px;
+  background-color: #006d9b;
+  border-radius: 30px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1250px) {
+  .s6 {
+    width: 95%;
+  }
+}
+.s6 h2 {
+  color: var(--Gray-Gray-1, #f3f4f8);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 60px;
+  padding-top: 56px;
+  line-height: 32px; /* 133.333% */
+}
+.s6 .yvelacinemamovies {
+  max-width: 1122px;
+  padding-left: 60px;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 12px;
+}
+.s6 .yvelacinemamovies .film1 {
+  width: 256px;
+  height: 272px;
+  border-radius: 25px;
+  border: 1px solid #a3a3a3;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  background: url(https://images.savoysystems.co.uk/RCS/7708333.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.s6 .yvelacinemamovies .film2 {
+  width: 256px;
+  height: 272px;
+  border-radius: 25px;
+  border: 1px solid #a3a3a3;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  background: url(https://resizing.flixster.com/5yCDU3YndW2EIWaEwH1FydaMwZI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2E0MGM5YTk5LTdhY2UtNGYzNS04NGVmLTJlNjRkYjljNjQ4ZS5qcGc=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.s6 .yvelacinemamovies .film3 {
+  width: 256px;
+  height: 272px;
+  border-radius: 25px;
+  border: 1px solid #a3a3a3;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  background: url(https://yc.cldmlk.com/8egh4pzb72gwe1mpt1vtez21a8/uploads/vertical_df1ef15f-5cc1-4c39-92a5-1dcd17d6040b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.s6 .yvelacinemamovies .film4 {
+  width: 256px;
+  height: 272px;
+  border-radius: 25px;
+  border: 1px solid #a3a3a3;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  background: url(https://assets-prd.ignimgs.com/2023/06/19/fyybldfaaambxsg-1687201253291.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 296px;
+  flex-shrink: 0;
+  background: #309d6f;
+  margin-top: 108px;
+}
+footer .footerdiv {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 56px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+@media (max-width: 1250px) {
+  footer .footerdiv {
+    width: 95%;
+  }
+}
+footer .footerdiv img {
+  width: 100px;
+  height: 100px;
+}
+footer .footerdiv h6 {
+  color: var(--Gray-Gray-1, #f3f4f8);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.lordseqcia1header {
+  width: 100%;
+  height: 180px;
+  flex-shrink: 0;
+  border-bottom: 2px solid #0e1020;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lordseqcia1header .header2 {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1250px) {
+  .lordseqcia1header .header2 {
+    width: 95%;
+  }
+}
+.lordseqcia1header .header2 .headertext {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.lordseqcia1header .header2 .fa-magnifying-glass {
+  font-size: 40px;
+  cursor: pointer;
+}
+.lordseqcia1header .header2 .fa-user {
+  font-size: 40px;
+  cursor: pointer;
+}
+.lordseqcia1header .header2 img {
+  width: 120px;
+  height: 120px;
+}
+.lordseqcia1header .header2 .bars {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 6px;
+  cursor: pointer;
+}
+.lordseqcia1header .header2 .bars h1 {
+  color: var(-text-colour);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 200% */
+}
+
+.lordseqcia2 {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 92px;
+}
+@media (max-width: 1250px) {
+  .lordseqcia2 {
+    width: 95%;
+  }
+}
+.lordseqcia2 .lordfotoebidatexsti {
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 125px;
+}
+.lordseqcia2 .lordfotoebidatexsti .textebilord {
+  width: 463px;
+  height: 548px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.lordseqcia2 .lordfotoebidatexsti .textebilord .watchnowlord {
+  display: flex;
+  width: 259px;
+  padding: 12px 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 35px;
+  background: var(--Primary-Primary-10, #309d6f);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.lordseqcia2 .lordfotoebidatexsti .textebilord .watchnowlord h2 {
+  color: var(--Primary-Primary-1, #eaf5f1);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.lordseqcia2 .lordfotoebidatexsti .textebilord h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+}
+.lordseqcia2 .lordfotoebidatexsti .textebilord p {
+  width: 369px;
+  height: 182px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.lordseqcia2 .lordfotoebidatexsti .fotoebilord {
+  max-width: 610px;
+  width: 100%;
+  height: 548px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 20px;
+}
+.lordseqcia2 .lordfotoebidatexsti .fotoebilord .didifoto {
+  max-width: 505px;
+  width: 100%;
+  height: 548px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(<path-to-image>) lightgray -10.863px 10.637px/108.515% 100% no-repeat;
+}
+.lordseqcia2 .lordfotoebidatexsti .fotoebilord .patarafotoebilord {
+  max-width: 85px;
+  width: 100%;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.lordseqcia2 .lordfotoebidatexsti .fotoebilord .patarafotoebilord .lordfoto1 {
+  width: 85px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+}
+.lordseqcia2 .lordfotoebidatexsti .fotoebilord .patarafotoebilord .lordfoto2 {
+  width: 85px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+}
+.lordseqcia2 .lordfotoebidatexsti .fotoebilord .patarafotoebilord .lordfoto3 {
+  width: 85px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+}
+.lordseqcia2 .lordfotoebidatexsti .fotoebilord .patarafotoebilord .lordfoto4 {
+  width: 85px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+}
+
 @media (max-width: 840px) {
   .s1 {
     height: 400px;
@@ -873,12 +1142,8 @@ a {
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     margin-top: 100px;
   }
 }
@@ -916,12 +1181,8 @@ a {
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     margin-top: 70px;
   }
 }
@@ -945,9 +1206,7 @@ a {
 }
 @media (max-width: 1250px) {
   .yveladivi {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 }
 @media (max-width: 420px) {
@@ -965,5 +1224,43 @@ a {
     font-size: 14px;
     width: 250px;
     line-height: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .s6 .yvelacinemamovies .film4 {
+    display: none;
+  }
+}
+@media (max-width: 918px) {
+  .s6 .yvelacinemamovies {
+    padding-left: 20px;
+  }
+  .s6 .yvelacinemamovies .film4 {
+    display: none;
+  }
+  .s6 .yvelacinemamovies .film3 {
+    display: none;
+  }
+}
+@media (max-width: 572px) {
+  .s6 .yvelacinemamovies {
+    padding-left: 20px;
+  }
+  .s6 .yvelacinemamovies .film4 {
+    display: none;
+  }
+  .s6 .yvelacinemamovies .film3 {
+    display: none;
+  }
+  .s6 .yvelacinemamovies .film2 {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .lordseqcia1header header .headertext .bars .fa-bars {
+    font-size: 40px;
+  }
+  .lordseqcia1header header .headertext h1 {
+    display: none;
   }
 }/*# sourceMappingURL=global.css.map */

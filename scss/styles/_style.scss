@@ -30,8 +30,8 @@
       cursor: pointer;
     }
     img {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
     }
     .bars {
       display: flex;
@@ -262,6 +262,147 @@
           margin-top: 66px;
         }
       }
+    }
+  }
+}
+.s5 {
+  @include container;
+  margin-top: 108px;
+
+  .yvelajanri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    .janrisbutton {
+      @include janrisbutton;
+      h1 {
+        color: var(--Gray-Gray-1, #f3f4f8);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 28px; /* 140% */
+      }
+    }
+    .janri1 {
+      @include janrebi;
+      background: url(https://wallpapers.com/images/featured/4k-marvel-awrqh8lcgyk3crjc.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .janri2 {
+      @include janrebi;
+      background: url(https://c4.wallpaperflare.com/wallpaper/987/845/125/action-nature-green-smile-wallpaper-preview.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .janri3 {
+      @include janrebi;
+      background: url(https://rukminim2.flixcart.com/image/850/1000/l111lzk0/poster/1/d/j/medium-rings-horror-movie-2016-4k-on-fine-art-paper-hd-quality-original-imagczwux574g9hp.jpeg?q=90&crop=false);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+.s6 {
+  @include container;
+  width: 1240px;
+  height: 456px;
+  flex-shrink: 0;
+  margin-top: 108px;
+  background-color: #006d9b;
+  border-radius: 30px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
+  h2 {
+    color: var(--Gray-Gray-1, #f3f4f8);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-top: 56px;
+    line-height: 32px; /* 133.333% */
+  }
+  .yvelacinemamovies {
+    max-width: 1122px;
+    padding-left: 60px;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 12px;
+    .film1 {
+      @include cinemamovies;
+      background: url(https://images.savoysystems.co.uk/RCS/7708333.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .film2 {
+      @include cinemamovies;
+      background: url(https://resizing.flixster.com/5yCDU3YndW2EIWaEwH1FydaMwZI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2E0MGM5YTk5LTdhY2UtNGYzNS04NGVmLTJlNjRkYjljNjQ4ZS5qcGc=);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .film3 {
+      @include cinemamovies;
+      background: url(https://yc.cldmlk.com/8egh4pzb72gwe1mpt1vtez21a8/uploads/vertical_df1ef15f-5cc1-4c39-92a5-1dcd17d6040b.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .film4 {
+      @include cinemamovies;
+      background: url(https://assets-prd.ignimgs.com/2023/06/19/fyybldfaaambxsg-1687201253291.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 296px;
+  flex-shrink: 0;
+  background: #309d6f;
+  margin-top: 108px;
+
+  .footerdiv {
+    @include container;
+    padding-top: 56px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    h6 {
+      color: var(--Gray-Gray-1, #f3f4f8);
+      text-align: center;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-skip-ink: none;
+      text-decoration-thickness: auto;
+      text-underline-offset: auto;
+      text-underline-position: from-font;
     }
   }
 }
