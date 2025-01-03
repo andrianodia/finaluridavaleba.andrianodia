@@ -1,4 +1,4 @@
-.lordseqcia1header {
+.shawseqcia1header {
   width: 100%;
   height: 180px;
   flex-shrink: 0;
@@ -6,12 +6,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  .header2 {
+  .header2shaw {
     @include container;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .headertext {
+    .headertext1 {
       display: flex;
       align-items: center;
       gap: 24px;
@@ -46,9 +46,9 @@
   }
 }
 
-.lordseqcia2 {
+.shawseqcia2 {
   margin-top: 92px;
-  .fotoebidatextebilord {
+  .fotoebidatextebishaw {
     @include container;
     max-width: 1240px;
     width: 100%;
@@ -56,34 +56,34 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 30px;
-    .fotoebilord {
+    .fotoebishaw {
       max-width: 610px;
       width: 100%;
       gap: 20px;
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      .didifoto {
+      .didifotoshaw {
         max-width: 505px;
         width: 100%;
         height: 548px;
         flex-shrink: 0;
         border-radius: 20px;
         border: 1px solid var(--Gray-Gray-10, #0e1020);
-        background: url(https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg)
+        background: url(https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg)
           lightgray -10.863px 10.637px / 108.515% 100% no-repeat;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
       }
-      .patarafotoebilord {
+      .patarafotoebishaw {
         max-width: 85px;
         width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 16px;
-        .lordfoto1 {
+        .shawfoto1 {
           max-width: 85px;
           width: 100%;
           max-height: 85px;
@@ -91,12 +91,12 @@
           flex-shrink: 0;
           border-radius: 10px;
           border: 1px solid var(--Gray-Gray-10, #0e1020);
-          background: url(https://s26162.pcdn.co/wp-content/uploads/2023/07/The-Fellowship-of-the-Ring.jpg);
+          background: url(https://images.squarespace-cdn.com/content/v1/54992035e4b0c49940a59e49/1571288095441-XGJGE81A2ADZ885J70LY/shawshank+rain.jpg);
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
         }
-        .lordfoto2 {
+        .shawfoto2 {
           max-width: 85px;
           width: 100%;
           max-height: 85px;
@@ -104,12 +104,12 @@
           flex-shrink: 0;
           border-radius: 10px;
           border: 1px solid var(--Gray-Gray-10, #0e1020);
-          background: url(https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_1117,w_1988,x_0,y_22/c_fill,f_auto,h_1215,q_auto,w_2160/v1/m/9/b/9b3f77c4c45da75936a12356713328f5ecf5a278/20-facts-might-know-lord-rings-fellowship-ring.jpg);
+          background: url(https://geekywhale.com/wp-content/uploads/2020/12/the-shawshank-redemption-red-andy.jpg);
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
         }
-        .lordfoto3 {
+        .shawfoto3 {
           max-width: 85px;
           width: 100%;
           max-height: 85px;
@@ -117,12 +117,12 @@
           flex-shrink: 0;
           border-radius: 10px;
           border: 1px solid var(--Gray-Gray-10, #0e1020);
-          background: url(https://statcdn.fandango.com/MPX/image/NBCU_Fandango/909/98/thumb_F217C17A-3384-4B24-82F8-4305A4224AB0.jpg);
+          background: url(https://littlebitsofgaming.com/wp-content/uploads/2024/10/shawshank-redemption-main.jpg?w=1024);
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
         }
-        .lordfoto4 {
+        .shawfoto4 {
           max-width: 85px;
           width: 100%;
           max-height: 85px;
@@ -130,21 +130,21 @@
           flex-shrink: 0;
           border-radius: 10px;
           border: 1px solid var(--Gray-Gray-10, #0e1020);
-          background: url(https://i.guim.co.uk/img/media/6812d2f5cd8ad9b9a26fff36804d99142574f47f/0_98_2745_1647/master/2745.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=06c4227ed1cbb8bb3925d1af537a88a9);
+          background: url(https://www.hollywoodreporter.com/wp-content/uploads/2018/03/the_shawshank_redemption_-_h_-_1994.jpg?w=1296&h=730&crop=1);
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
         }
       }
     }
-    .textebilord {
+    .textebishaw {
       max-width: 463px;
       width: 100%;
       display: flex;
       align-items: start;
       flex-direction: column;
       row-gap: 24px;
-      .watchnowlord {
+      .watchnowshaw {
         display: flex;
         width: 259px;
         padding: 12px 64px;
@@ -180,10 +180,10 @@
         color: #000;
 
         font-family: Inter;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 26px;
+        line-height: 24px;
       }
     }
   }

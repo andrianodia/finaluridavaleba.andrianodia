@@ -140,6 +140,8 @@
   }
 }
 
+/*lordofthering*/
+
 @media (max-width: 425px) {
   .lordseqcia1header {
     header {
@@ -151,6 +153,19 @@
         }
         h1 {
           display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 646px) {
+  .lordseqcia2 {
+    .fotodatextebilord {
+      .fotoebilord {
+        .patarafotoebilord {
+          display: flex;
+          flex-direction: row;
         }
       }
     }
