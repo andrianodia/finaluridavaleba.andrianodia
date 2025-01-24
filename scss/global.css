@@ -1710,6 +1710,624 @@ footer .footerdiv h6 {
   text-underline-position: from-font;
 }
 
+.batseqcia1header {
+  width: 100%;
+  height: 180px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-bottom: 2px solid #0e1020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.batseqcia1header .header2bat {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1250px) {
+  .batseqcia1header .header2bat {
+    width: 95%;
+  }
+}
+.batseqcia1header .header2bat .headertext1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+.batseqcia1header .header2bat .fa-magnifying-glass {
+  font-size: 40px;
+  cursor: pointer;
+}
+.batseqcia1header .header2bat .fa-user {
+  font-size: 40px;
+  cursor: pointer;
+}
+.batseqcia1header .header2bat img {
+  width: 120px;
+  height: 120px;
+}
+.batseqcia1header .header2bat .bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  gap: 6px;
+  cursor: pointer;
+}
+.batseqcia1header .header2bat .bars h1 {
+  color: var(-text-colour);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 200% */
+}
+
+.batseqcia2 {
+  margin-top: 92px;
+}
+.batseqcia2 .fotoebidatextebibat {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1240px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+@media (max-width: 1250px) {
+  .batseqcia2 .fotoebidatextebibat {
+    width: 95%;
+  }
+}
+.batseqcia2 .fotoebidatextebibat .fotoebibat {
+  max-width: 610px;
+  width: 100%;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.batseqcia2 .fotoebidatextebibat .fotoebibat .didifotobat {
+  max-width: 505px;
+  width: 100%;
+  height: 548px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg) lightgray -10.863px 10.637px/108.515% 100% no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.batseqcia2 .fotoebidatextebibat .fotoebibat .patarafotoebibat {
+  max-width: 85px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+}
+.batseqcia2 .fotoebidatextebibat .fotoebibat .patarafotoebibat .batfoto1 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://highdefdiscnews.com/wp-content/uploads/2019/02/the_dark_knight_4k_04.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.batseqcia2 .fotoebidatextebibat .fotoebibat .patarafotoebibat .batfoto2 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23218019/DKR1.jpeg?quality=90&strip=all&crop=22.925%2C0%2C54.15%2C100&w=2400);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.batseqcia2 .fotoebidatextebibat .fotoebibat .patarafotoebibat .batfoto3 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://play-lh.googleusercontent.com/proxy/MI1iDBePMmwOUCfsLAU6ibqOG8snlh3kG26WepGHcOfZfBay9oVQ7XDxnu5FeDwXf1tCFd1fdAAG1OM_9SJlV1tGQMzcdaDitSS9BVRLiPInFnLYo6Y=s3840-w3840-h2160);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.batseqcia2 .fotoebidatextebibat .fotoebibat .patarafotoebibat .batfoto4 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://cdn.theatlantic.com/thumbor/zZWVn7B3bzrWJSxPFfgCh3LB3xM=/0x34:1597x866/1200x625/media/img/mt/2018/07/TDK/original.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.batseqcia2 .fotoebidatextebibat .textebibat {
+  max-width: 463px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 24px;
+}
+.batseqcia2 .fotoebidatextebibat .textebibat .watchnowbat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 259px;
+  padding: 12px 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border-radius: 35px;
+  background: var(--Primary-Primary-10, #309d6f);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.batseqcia2 .fotoebidatextebibat .textebibat .watchnowbat h2 {
+  color: var(--Primary-Primary-1, #eaf5f1);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.batseqcia2 .fotoebidatextebibat .textebibat h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+.batseqcia2 .fotoebidatextebibat .textebibat p {
+  max-width: 369px;
+  width: 100%;
+  height: 182px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+footer {
+  width: 100%;
+  height: 296px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #309d6f;
+  margin-top: 108px;
+}
+footer .footerdiv {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 60px;
+}
+@media (max-width: 1250px) {
+  footer .footerdiv {
+    width: 95%;
+  }
+}
+footer .footerdiv img {
+  width: 100px;
+  height: 100px;
+}
+footer .footerdiv h6 {
+  color: var(--Gray-Gray-1, #f3f4f8);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.godseqcia1header {
+  width: 100%;
+  height: 180px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-bottom: 2px solid #0e1020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.godseqcia1header .header2god {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1250px) {
+  .godseqcia1header .header2god {
+    width: 95%;
+  }
+}
+.godseqcia1header .header2god .headertext1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+.godseqcia1header .header2god .fa-magnifying-glass {
+  font-size: 40px;
+  cursor: pointer;
+}
+.godseqcia1header .header2god .fa-user {
+  font-size: 40px;
+  cursor: pointer;
+}
+.godseqcia1header .header2god img {
+  width: 120px;
+  height: 120px;
+}
+.godseqcia1header .header2god .bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  gap: 6px;
+  cursor: pointer;
+}
+.godseqcia1header .header2god .bars h1 {
+  color: var(-text-colour);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 200% */
+}
+
+.godseqcia2 {
+  margin-top: 92px;
+}
+.godseqcia2 .fotoebidatextebigod {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1240px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+@media (max-width: 1250px) {
+  .godseqcia2 .fotoebidatextebigod {
+    width: 95%;
+  }
+}
+.godseqcia2 .fotoebidatextebigod .fotoebigod {
+  max-width: 610px;
+  width: 100%;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.godseqcia2 .fotoebidatextebigod .fotoebigod .didifotogod {
+  max-width: 505px;
+  width: 100%;
+  height: 548px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) lightgray -10.863px 10.637px/108.515% 100% no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.godseqcia2 .fotoebidatextebigod .fotoebigod .patarafotoebigod {
+  max-width: 85px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+}
+.godseqcia2 .fotoebidatextebigod .fotoebigod .patarafotoebigod .godfoto1 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/29/1414568178022/ce595af2-3bad-4b17-8f15-0cedc04ed3cd-1020x612.jpeg?width=620&quality=85&auto=format&fit=max&s=c7141f157bb84d162c6643f416f23ed4);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.godseqcia2 .fotoebidatextebigod .fotoebigod .patarafotoebigod .godfoto2 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://media.newyorker.com/photos/594044d90c240c2a1fd678ce/4:3/w_2559,h_1919,c_limit/970324_ra409.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.godseqcia2 .fotoebidatextebigod .fotoebigod .patarafotoebigod .godfoto3 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://static01.nyt.com/images/2022/03/13/arts/13godfather-pacino1/merlin_203043024_2d87c8a6-318e-4d82-afc7-0b00cea6b7af-superJumbo.jpg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.godseqcia2 .fotoebidatextebigod .fotoebigod .patarafotoebigod .godfoto4 {
+  max-width: 85px;
+  width: 100%;
+  max-height: 85px;
+  height: 100vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-Gray-10, #0e1020);
+  background: url(https://i.insider.com/623a435f4627420018f7d7b7?width=600&format=jpeg&auto=webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.godseqcia2 .fotoebidatextebigod .textebigod {
+  max-width: 463px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 24px;
+}
+.godseqcia2 .fotoebidatextebigod .textebigod .watchnowgod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 259px;
+  padding: 12px 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border-radius: 35px;
+  background: var(--Primary-Primary-10, #309d6f);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.godseqcia2 .fotoebidatextebigod .textebigod .watchnowgod h2 {
+  color: var(--Primary-Primary-1, #eaf5f1);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.godseqcia2 .fotoebidatextebigod .textebigod h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+.godseqcia2 .fotoebidatextebigod .textebigod p {
+  max-width: 369px;
+  width: 100%;
+  height: 182px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+footer {
+  width: 100%;
+  height: 296px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #309d6f;
+  margin-top: 108px;
+}
+footer .footerdiv {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 60px;
+}
+@media (max-width: 1250px) {
+  footer .footerdiv {
+    width: 95%;
+  }
+}
+footer .footerdiv img {
+  width: 100px;
+  height: 100px;
+}
+footer .footerdiv h6 {
+  color: var(--Gray-Gray-1, #f3f4f8);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
 @media (max-width: 840px) {
   .s1 {
     height: 400px;
@@ -1853,6 +2471,63 @@ footer .footerdiv h6 {
 }
 @media (max-width: 646px) {
   .lordseqcia2 .fotodatextebilord .fotoebilord .patarafotoebilord {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media (max-width: 425px) {
+  .shawseqcia1header .header2shaw .headertext1 .bars .fa-bars {
+    font-size: 40px;
+  }
+  .shawseqcia1header .header2shaw .headertext1 h1 {
+    display: none;
+  }
+}
+@media (max-width: 646px) {
+  .shawseqcia2 .fotodatextebishaw .fotoebishaw .patarafotoebishaw {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media (max-width: 425px) {
+  .batseqcia1header .header2bat .headertext1 .bars .fa-bars {
+    font-size: 40px;
+  }
+  .batseqcia1header .header2bat .headertext1 h1 {
+    display: none;
+  }
+}
+@media (max-width: 646px) {
+  .batseqcia2 .fotodatextebsbat .fotoebibat .patarafotoebibat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media (max-width: 425px) {
+  .godseqcia1header .header2god .headertext1 .bars .fa-bars {
+    font-size: 40px;
+  }
+  .godseqcia1header .header2god .headertext1 h1 {
+    display: none;
+  }
+}
+@media (max-width: 646px) {
+  .godseqcia2 .fotodatextebsgod .fotoebigod .patarafotoebigod {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

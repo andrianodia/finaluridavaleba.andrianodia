@@ -171,3 +171,93 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .shawseqcia1header {
+    .header2shaw {
+      .headertext1 {
+        .bars {
+          .fa-bars {
+            font-size: 40px;
+          }
+        }
+        h1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 646px) {
+  .shawseqcia2 {
+    .fotodatextebishaw {
+      .fotoebishaw {
+        .patarafotoebishaw {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .batseqcia1header {
+    .header2bat {
+      .headertext1 {
+        .bars {
+          .fa-bars {
+            font-size: 40px;
+          }
+        }
+        h1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 646px) {
+  .batseqcia2 {
+    .fotodatextebsbat {
+      .fotoebibat {
+        .patarafotoebibat {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .godseqcia1header {
+    .header2god {
+      .headertext1 {
+        .bars {
+          .fa-bars {
+            font-size: 40px;
+          }
+        }
+        h1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 646px) {
+  .godseqcia2 {
+    .fotodatextebsgod {
+      .fotoebigod {
+        .patarafotoebigod {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}

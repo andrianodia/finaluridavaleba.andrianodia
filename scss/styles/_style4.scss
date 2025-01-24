@@ -1,0 +1,226 @@
+.godseqcia1header {
+  width: 100%;
+  height: 180px;
+  flex-shrink: 0;
+  border-bottom: 2px solid #0e1020;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header2god {
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .headertext1 {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .fa-magnifying-glass {
+      font-size: 40px;
+      cursor: pointer;
+    }
+    .fa-user {
+      font-size: 40px;
+      cursor: pointer;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+    }
+    .bars {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      gap: 6px;
+      cursor: pointer;
+      h1 {
+        color: var(-text-colour);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 200% */
+      }
+    }
+  }
+}
+
+.godseqcia2 {
+  margin-top: 92px;
+  .fotoebidatextebigod {
+    @include container;
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    .fotoebigod {
+      max-width: 610px;
+      width: 100%;
+      gap: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      .didifotogod {
+        max-width: 505px;
+        width: 100%;
+        height: 548px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid var(--Gray-Gray-10, #0e1020);
+        background: url(https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)
+          lightgray -10.863px 10.637px / 108.515% 100% no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .patarafotoebigod {
+        max-width: 85px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 16px;
+        .godfoto1 {
+          max-width: 85px;
+          width: 100%;
+          max-height: 85px;
+          height: 100vh;
+          flex-shrink: 0;
+          border-radius: 10px;
+          border: 1px solid var(--Gray-Gray-10, #0e1020);
+          background: url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/29/1414568178022/ce595af2-3bad-4b17-8f15-0cedc04ed3cd-1020x612.jpeg?width=620&quality=85&auto=format&fit=max&s=c7141f157bb84d162c6643f416f23ed4);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .godfoto2 {
+          max-width: 85px;
+          width: 100%;
+          max-height: 85px;
+          height: 100vh;
+          flex-shrink: 0;
+          border-radius: 10px;
+          border: 1px solid var(--Gray-Gray-10, #0e1020);
+          background: url(https://media.newyorker.com/photos/594044d90c240c2a1fd678ce/4:3/w_2559,h_1919,c_limit/970324_ra409.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .godfoto3 {
+          max-width: 85px;
+          width: 100%;
+          max-height: 85px;
+          height: 100vh;
+          flex-shrink: 0;
+          border-radius: 10px;
+          border: 1px solid var(--Gray-Gray-10, #0e1020);
+          background: url(https://static01.nyt.com/images/2022/03/13/arts/13godfather-pacino1/merlin_203043024_2d87c8a6-318e-4d82-afc7-0b00cea6b7af-superJumbo.jpg);
+          background-position: left;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .godfoto4 {
+          max-width: 85px;
+          width: 100%;
+          max-height: 85px;
+          height: 100vh;
+          flex-shrink: 0;
+          border-radius: 10px;
+          border: 1px solid var(--Gray-Gray-10, #0e1020);
+          background: url(https://i.insider.com/623a435f4627420018f7d7b7?width=600&format=jpeg&auto=webp);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .textebigod {
+      max-width: 463px;
+      width: 100%;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      row-gap: 24px;
+      .watchnowgod {
+        display: flex;
+        width: 259px;
+        padding: 12px 64px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 35px;
+        background: var(--Primary-Primary-10, #309d6f);
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+        h2 {
+          color: var(--Primary-Primary-1, #eaf5f1);
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 32px;
+        }
+      }
+      h1 {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+      }
+      p {
+        max-width: 369px;
+        width: 100%;
+        height: 182px;
+        flex-shrink: 0;
+        color: #000;
+
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+  }
+}
+footer {
+  width: 100%;
+  height: 296px;
+  flex-shrink: 0;
+  background: #309d6f;
+  margin-top: 108px;
+
+  .footerdiv {
+    @include container;
+    padding-top: 56px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    h6 {
+      color: var(--Gray-Gray-1, #f3f4f8);
+      text-align: center;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-skip-ink: none;
+      text-decoration-thickness: auto;
+      text-underline-offset: auto;
+      text-underline-position: from-font;
+    }
+  }
+}
